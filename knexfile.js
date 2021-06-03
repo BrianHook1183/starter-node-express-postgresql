@@ -10,5 +10,8 @@ module.exports = {
       // tells Knex to store migration files in the migrations folder at src/db/migrations.
       directory: path.join(__dirname, "src", "db", "migrations"),
     },
+    seeds: {
+      directory: path.join(__dirname, "src", "db", "seeds"),
+    },
   },
 };
